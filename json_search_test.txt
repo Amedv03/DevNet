@@ -9,3 +9,7 @@ class json_search_test(unittest.TestCase):
     def test_is_a_list(self):
         '''Should return a list'''
         Self.assertisInstance (json_search (key1, data), list)
+        
+if __name__ == '__main__':
+    unittest.main()
+
